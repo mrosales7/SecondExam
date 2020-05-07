@@ -11,6 +11,7 @@
 
 
         <ImageButton
+            android:id="@+id/imgfirst"
             android:layout_width="88dp"
             android:layout_height="60dp"
             android:layout_marginStart="0dp"
@@ -22,7 +23,7 @@
         </ImageButton>
 
         <TextView
-            android:id="@+id/title"
+            android:id="@+id/txttitle"
             android:layout_width="88dp"
             android:layout_height="60dp"
             android:gravity="center"
@@ -33,6 +34,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"/>
 
         <ImageButton
+            android:id="@+id/imgbutton"
             android:layout_width="88dp"
             android:layout_height="60dp"
             android:layout_marginStart="50dp"
@@ -60,7 +62,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/contec"
+                android:id="@+id/txtone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -73,7 +75,7 @@
 
 
             <ImageView
-                android:id="@+id/img"
+                android:id="@+id/imgtwo"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_marginStart="70dp"
@@ -85,7 +87,7 @@
             </ImageView>
 
             <TextView
-                android:id="@+id/scond"
+                android:id="@+id/txtsecond"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -95,7 +97,7 @@
                 android:textColor="@color/black" />
 
             <TextView
-                android:id="@+id/segundo"
+                android:id="@+id/txtsubsec"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -108,7 +110,7 @@
 
 
             <ImageView
-                android:id="@+id/imagen"
+                android:id="@+id/imgdos"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_marginStart="70dp"
@@ -120,7 +122,7 @@
             </ImageView>
 
             <TextView
-                android:id="@+id/cuarta"
+                android:id="@+id/txtcuarto"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -130,7 +132,7 @@
                 android:textColor="@color/black" />
 
             <TextView
-                android:id="@+id/quart"
+                android:id="@+id/txtquart"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -144,7 +146,7 @@
 
 
             <ImageView
-                android:id="@+id/imagenes"
+                android:id="@+id/imgfinal"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_marginStart="70dp"
