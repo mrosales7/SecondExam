@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SecondExam</string>
+    <string name="desc"> f</string>
+    <string name="Title">Bear.</string>
+    <string name="subtitle">Log in on bear ;) !</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="button">LOGIN WITH EMAIL</string>
+    <string name="notes">NOTES</string>
+    <string name="text">Bear is a beatifull, flexible writing app notes and prosed is eas</string>
+    <string name="segundotexto">Organize and publish</string>
+    <string name="titlethree">Let is learn more about Bear and some best features you can star playing</string>
+    <string name="tercertexto">BEAR PRO</string>
+    <string name="cuartotext">Bear is a beatifull, flexible writing app notes and prosed is easy</string>
+    <string name="ftitle">BEAR PRO</string>
+    <string name="ftext">Upgrade to Bear Pro to support further development and gain access to some great extra features</string>
+    <string name="ftextrenew">Sync notes between all your devices</string>
+    <string name="ftextkitchen">Aplication themes</string>
+    <string name="ftextopen">Advanced exports to PDF, HTML, JPG</string>
+    <string name="txtoferta">Montly Subscription</string>
+    <string name="btnoferta">$1.49 SUBSCRIBE</string>
+    <string name="ftxtthree">I week free tria</string>
+    <string name="ftxtfour">Yearly suscription</string>
+    <string name="ftxtfive">$14.99 SUBSCRIBE</string>
+    <string name="ftxtsix">1 month free trial + save 15%</string>
+    <string name="ftxtseven">All subscriptions can be cancelled at any time</string>
+    <string name="btnquestions">Any questions?</string>
+    <string name="btnfinal">Restore purchase</string>
+    <string name="btncontent">SUBSCRIPCION BEAR PRO</string>
+</resources>

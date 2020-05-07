@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="337dp"
+        android:layout_height="380dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txttitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/Title"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/brown" />
+
+        <TextView
+            android:id="@+id/txtsubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/subtitle"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/brown" />
+
+
+        <ImageView
+            android:id="@+id/imgimage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:contentDescription="@string/desc"
+            android:src="@drawable/login" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="389dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="330dp"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:autofillHints="@string/email"
+            android:background="@drawable/edit_round"
+            android:drawableStart="@drawable/ic_email"
+            android:drawablePadding="10dp"
+            android:hint="@string/email"
+            android:inputType="text"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:shadowColor="@color/brown" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:autofillHints="@string/password"
+            android:background="@drawable/edit_round"
+            android:drawableStart="@drawable/ic_lock_black_24dp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:shadowColor="@color/brown">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/round_button"
+            android:text="@string/button"
+            android:textColor="@color/white" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btbofertas"
+                style="?attr/buttonBarButtonStyle"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="60dp"
+                android:drawableStart="@drawable/ic_shopping_cart_black_24dp"
+                android:onClick="FormActivity"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btnbexplorar"
+                style="?attr/buttonBarButtonStyle"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:drawableStart="@drawable/ic_explore_black_24dp"
+                android:onClick="ContentActivity"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
